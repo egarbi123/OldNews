@@ -1,0 +1,238 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.title {
+    display: inline-block;
+    width: 58%;
+}
+
+.app {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 950px;
+}
+
+.column {
+    width: 30%;
+    text-align: center;
+}
+
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.button {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
+
+.smallSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+}
+
+.midSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    height: 900px;
+}
+
+.article {
+    text-align: left;
+}
+
+.image {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.midLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: 1px;
+    background-color: black;
+}
+
+.appContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.appContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaceLine {
+    display: flex;
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomNavbar {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomNavbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 25px;
+}
+
+.bottomNavbar2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.bottomNavbar2 ul li {
+    width: 25%;
+}
+
+.topImageSpace {
+    text-align: center;
+}
+
+.topImage {
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bigFont {
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.topNavbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topPowerNews {
+    width: 20%;
+    height: 100%;
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topNavbarSpace {
+    width: 60%;
+}
+
+.navbarDropdown {
+    width: 20%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+}
+
+.NVDD * {
+    margin: 0;
+    padding: 0;
+}
+
+.NVDD {
+    float: right;
+}
+
+.NVDD ul {
+    list-style: none;
+}
+
+.NVDD ul li {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    left: 0;
+    width: 130px;
+    float: left;
+    position: relative;
+}
+
+.NVDD ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.NVDD ul li ul li {
+    border-top: 1px;
+}
+
+.NVDD ul li ul {
+    display: none;
+}
+
+.NVDD ul li:hover ul {
+    display: block;
+}
+
+.NVDD ul li ul .item2 {
+    position: absolute;
+    right: 160px;
+    top: 0;
+    display: none;
+    width: 100px;
+}
+
+.NVDD ul li ul li ul .item2 li {
+    background-color: grey;
+}
+
+.NVDD ul li ul li:hover .item2 {
+    display: block;
+}
+
+.NVDD ul li ul li:hover {
+    background-color: grey;
+}
+
+.NVDD ul li ul li a {
+    font-size: 16px;
+}
